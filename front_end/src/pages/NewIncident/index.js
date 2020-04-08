@@ -22,7 +22,7 @@ export default function NewIncident() {
             description,
             value,
         };
-        try {
+        try { 
             await api.post('incidents', data, {
                 headers: {
                     Authorization: ongId,
